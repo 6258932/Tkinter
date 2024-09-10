@@ -2,6 +2,7 @@ from tkinter import Tk, Label, Button, Entry, END
 
 root = Tk()
 root.title("Ma première fenêtre")
+root.geometry("500x500")
 
 # Ajouter un texte large
 label = Label(root, text="Hello World!", font=("Helvetica", 32))
